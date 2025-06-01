@@ -83,7 +83,7 @@ h3 {
 
 /* Botón de envío */
 .submit-btn {
-    background: linear-gradient(90deg, #f4d30a, #f8ea27, #ffee38);
+    background: linear-gradient(90deg, #50ccf6, #409bd3, #0a688d);
     border: none;
     padding: 12px 30px;
     border-radius: 25px;
@@ -92,10 +92,13 @@ h3 {
     cursor: pointer;
     transition: 0.4s;
     margin-top: 10px;
+    box-shadow: 5px 5px 5px #161616;
+
 }
 .submit-btn:hover {
-    background: linear-gradient(90deg, #ffa500, #ffdd00);
-    box-shadow: 0 5px 25px #ffdd0080;
+    background: linear-gradient(90deg, #00aaff, #00fff2);
+    box-shadow: 5px 5px 5px #58abc480;
+
 }
 
 /* Estilo adicional para elementos visibles */
