@@ -104,11 +104,11 @@
   margin-bottom: 9px;
 }
 
-#texto-negro1 {
+.texto-negro1 {
   font-family: 'ICA Rubrik';
-  font-size: 2rem;
-  color: #000;
-  text-shadow: 2px 2px 4px #555, -1px -1px 2px #fff, 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  color: #feffff;
+  text-shadow: 2px 2px 4px #131313, -1px -1px 2px #2e2c2c, 1px 1px 1px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
   text-align: center;
 }

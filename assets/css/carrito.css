@@ -92,7 +92,7 @@ button:hover {
   padding: 5px 10px;
   border: none;
   cursor: pointer;
-  height: 42px;
+  height:30px;
 }
 
 .eliminar:hover {

@@ -1,6 +1,6 @@
 /* Estilos para el footer, se asegura que esté al final de la página */
 footer {
-  border-top: 4px solid #cd7e35;
+  border-top: #038ef9 solid 4px;
   background-color: #333;
   color: #fff;
   padding-top:30px;

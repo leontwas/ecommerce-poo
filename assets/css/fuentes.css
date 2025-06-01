@@ -1,12 +1,11 @@
 .Empresa {
   font-family: Roboto, serif;
-  background: linear-gradient(to right, rgb(243, 243, 245), rgb(4, 20, 246));
+  font-size: 3rem;
+  font-style: italic !important; /* CORRECTO: esto impone la cursiva */
+  background: linear-gradient(to bottom, rgb(108, 197, 252) 50%, rgb(99, 99, 100) 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Opcional para Firefox */
-  background-clip: text;
-  color: transparent;
-  /*text-shadow: 2px 2px 4px #555, -1px -1px 2px #fff, 1px 1px 1px rgba(0, 0, 0, 0.3);*/
+  line-height: 1;
 }
 
 .libre-baskerville-regular {

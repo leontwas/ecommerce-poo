@@ -1,184 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-        <link rel="stylesheet" href="./assets/css/fuentes.css">
-        <link rel="stylesheet" href="./assets/css/header.css">
-        <link rel="stylesheet" href="./assets/css/styles2.css">
-        <link rel="stylesheet" href="./assets//css/insumos.css">
-        <link rel="stylesheet" href="./assets/css/footer.css">
-        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <title>Insumos</title>
-    </head>
-    <body>
-        <header class="header">
-     
-            <a href="insumos.html">
-                <img alt="logo Encryptados" src="./assets/images/logo.png" class="logo">
-              </a>
-    
-            <div class="titulos">
-                <h1 class="Empresa">Encryptados</h1>
-                <h2 id="insumos" class="categoria">La tecnología al alcance de tu mano</h2>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="./assets/css/fuentes.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/styles2.css">
+    <link rel="stylesheet" href="./assets//css/insumos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Productos</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="insumos.html">
+            <img alt="logo Encryptados" src="./assets/images/logo.png" class="logo">
+        </a>
+
+        <div class="titulos">
+            <h1 class="Empresa">Encryptados</h1>
+            <h2 id="insumos" class="categoria">La tecnología al alcance de tu mano</h2>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./insumos.html">
+                            Productos
+                        </a>
+                    </li>
+                                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./servicios.html">
+                            Servicios
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="./login.html" id="admin">Admin</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
-        </header>    
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./auditorias.html" id="auditorias">
-                                Auditorías
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./servicios.html">
-                                Servicios
-                            </a>
-                        </li>
+    <main>
+        <div id="product-list" class="products"></div>
+    </main>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./capacitaciones.html">
-                              Capacitaciones
-                            </a>
-                          </li>
-                          
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./insumos.html">
-                                Insumos
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./contacto.html">
-                                Contacto
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./nosotros.html">
-                              Nosotros
-                            </a>
-                          </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="./login.html" id="admin">Admin</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+    <footer>
+        <div class="footlist">
+            <a class="footlink fab fa-brands fa-youtube fa-2x" href="https://youtube.com" title="YouTube"
+                target="_blank"></a>
+            <a class="footlink fa-brands fa-instagram fa-2x" href="https://www.instagram.com" title="Instagram"
+                target="_blank"></a>
+            <a class="footlink fa-brands fa-whatsapp fa-2x" href="https://whatsapp.com" title="Whatsapp"
+                target="_blank"></a>
+            <a class="footlink fa-brands fa-facebook fa-2x" href="https://www.facebook.com/" title="facebook"
+                target="_blank"></a>
+        </div>
+        <p>
+            <small>&copy; 2025 Todos los derechos reservados</small>
+        </p>
+    </footer>
+    <script src="./assets/js/carrito.js"></script>
+    <script src="./assets/js/busqueda.js"></script>
+    <script type="module" src="./assets/js/renderProductos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-        <main>
-                        <div id="product-list" class="products">
-                <div class="article">
-                    <img src="./assets/images/img1.png" alt="PC Gaming-city">
-                     <p class="texto-negro2">Pc Marca Gaming-city HO-0C0S16D-5700G-VEGA8 Amd Ryzen 7 5700g 8 Nucleos, 16gb De Ram, 480gb SSD</p>
-                    <p class="description">Precio $652.287</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="PC Gaming-city" data-precio="652287">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                    <img src="./assets/images/img2.png" alt="Mouse Gamer">
-                    <p class="texto-negro2">Mouse Gamer T-dagger Imperial T-tgm310rgb Black, sensor óptico de 7200 Dpi, Iluminación RGB</p>
-                    <p class="description">Precio $22.243</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="Mouse Gamer T-dagger Imperial" data-precio="22243">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                    <img src="/assets/images/img3.png" alt="Notebook Lenovo">
-                    <p class="texto-negro2">Notebook Lenovo V15 G4 Iru, Intel Core I5 13420h, 40gb De Ram Ddr4, 512gb Ssd M.2 Pcie (4.0x4) Nvme</p>
-                    <p class="description">Precio $550.000</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="Notebook Lenovo V15 G4 Iru" data-precio="550000">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                     <img src="./assets/images/img4.png" alt="PC Compact Galaxy 10.5">
-                    <p class="texto-negro2">PC Compact Galaxy 10.5" 256gb, Intel Core I5 1135G7, 8gb De Ram, 120gb Ssd M.2 Pcie (4.0x4) Nvme</p>
-                    <p class="description">Precio $470.999</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="PC Compact Galaxy 10.5" data-precio="470999">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                    
-                    <img src="./assets/images/img5.png" alt="Auriculares Gamer Jbl Quantum">
-                    <p class="texto-negro2">Auricular Gamer Jbl Quantum 100MVE Signature - Conector jack 3.5 mm (TRRS) - Sonido de 2400 hz</p>
-                    <p class="description">Precio $59.999</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="Auriculares Gamer Jbl Quantum" data-precio="59999">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div> 
-                <div class="article">
-                    
-                    <img src="./assets/images/img6.png" alt="Tablet Lenovo Tab M10">
-                    <p class="texto-negro2">Tablet Lenovo Tab M10 3rd Gen TB328FU 10" 64GB 4GB RAM 2K 5000mah Wifi Bluetooth</p>
-                    <p class="description">Precio $283.499</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="Tablet Lenovo Tab M10" data-precio="283499">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                    
-                    <img src="./assets/images/img7.png" alt="Notebook HP 15FC0037WMRFAA">
-                    <p class="texto-negro2">Notebook HP 15FC0A Color Plateado 8gb De Ram - 256gb Ssd - Amd Ryzen 5 - Windows 11 instalado.</p>
-                    <p class="description">Precio $621.197</p>
-                    <div class="botonera">
-                        <button class="agregar" data-nombre="Notebook HP 15FC0037WMRFAA" data-precio="621197">Comprar</button>
-                        <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                    </div>
-                </div>
-                <div class="article">
-                    
-                    <img src="./assets/images/img8.png" alt="bCombo Monitor 19 + Teclado y mouse">
-                    <p class="texto-negro2">Combo de monitor LED 19" + teclado y mouse inalámbricos Etheos - Conexión USB (plug & play) - No incluye CPU.<p></p>
-                    <p class="description">Precio $307.999</p>
-                <div class="botonera">
-                    <button class="agregar" data-nombre="Combo Monitor 19 + Teclado y mouse" data-precio="307999">Comprar</button>
-                    <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
-                </div>
-                </div>
-            </div>
+</body>
 
-        </main>
-
-        <footer>
-            <div class="footlist">
-                <a class="footlink fab fa-brands fa-youtube fa-2x" href="https://youtube.com" title="YouTube" target="_blank"></a>
-                <a class="footlink fa-brands fa-instagram fa-2x" href="https://www.instagram.com" title="Instagram" target="_blank"></a>
-                <a class="footlink fa-brands fa-whatsapp fa-2x" href="https://whatsapp.com" title="Whatsapp" target="_blank"></a>
-                <a class="footlink fa-brands fa-facebook fa-2x" href="https://www.facebook.com/" title="facebook" target="_blank"></a>
-            </div>
-            <p>
-                <small>&copy; 2025 Todos los derechos reservados</small>
-            </p>
-        </footer>
-        <script src="./assets/js/carrito.js"></script>
-        <script src="./assets/js/busqueda.js"></script>
-      </body>
 </html>
