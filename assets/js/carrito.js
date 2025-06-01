@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Definir los IDs para cada producto según su nombre
     const idsProductos = {
-        'Chalecos Refractarios': 1,
-        'Cascos de seguridad': 2,
-        'Libro del Lic. Altamirano': 3,
-        'Arnés de seguridad': 4,
-        'Protectores Auditivos': 5,
-        'Protectores Visuales': 6,
-        'Guantes de seguridad': 7,
-        'Borcegos con punta de acero': 8,
+        'PC Gaming-city': 1,
+        'Mouse Gamer T-dagger Imperial': 2,
+        'Notebook Lenovo V15 G4 Iru': 3,
+        'PC Compact Galaxy 10.5': 4,
+        'Auriculares Gamer Jbl Quantum': 5,
+        'Tablet Lenovo Tab M10': 6,
+        'Notebook HP 15FC0037WMRFAA': 7,
+        'Combo Monitor 19 + Teclado y mouse': 8,
     };
 
     // Agregar un producto al carrito

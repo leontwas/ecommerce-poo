@@ -50,7 +50,7 @@ nav .form-control-2 {
 
 /* Ajustar la barra de navegación para ocupar todo el ancho */
 .navbar {
-  background-color: #50633C !important;
+  background-color: #3c4a63 !important;
   color: white !important;
   width: 100vw !important;
   /* Hace que ocupe todo el ancho de la pantalla */
@@ -186,7 +186,7 @@ nav .form-control-2 {
 
 .categoria {
   font-size: 1.2rem;
-  color: black;
+  color: white;
   font-weight: bold;
   text-align: center;
   margin-top: 9px;
