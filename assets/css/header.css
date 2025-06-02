@@ -278,6 +278,11 @@ nav .form-control-2 {
     margin-top: -15px
   }
 
+  .Empresa {
+      font-size: 2rem;
+      margin-left: 20px;
+  }
+
   .categoria {
     font-size: 0.5rem;
   }

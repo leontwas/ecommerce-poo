@@ -132,10 +132,20 @@
 }
 
 /* Media queries para responsividad */
-@media (max-width: 650px) { /* Para tablets */
-    .article img {
-        max-width: 100%; /* Asegura que ocupe todo el contenedor */
-    }
+@media (max-width: 650px) {
+
+  /* Para tablets */
+  .article img {
+    max-width: 100%;
+    /* Asegura que ocupe todo el contenedor */
+  }
+
+  #insumos {
+    font-size: 0.9rem;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
 }
 
 @media (min-width: 651px) and (max-width: 850px) { /* Para celulares */
