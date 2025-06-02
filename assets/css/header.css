@@ -274,13 +274,14 @@ nav .form-control-2 {
   }
 
   .logo {
-    margin-left: -15px;
-    margin-top: -15px
+    margin-left: 5px;
+    margin-top: 5px
   }
 
   .Empresa {
       font-size: 2rem;
-      margin-left: 20px;
+      margin-top: 20px;
+      margin-left: 35px;
   }
 
   .categoria {
