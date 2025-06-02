@@ -116,6 +116,13 @@ button:hover {
     font-size: 1.8rem;
   }
 
+    #insumos {
+    font-size: 0.9rem;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
   .container {
     max-width: 95%;
     padding: 15px;
