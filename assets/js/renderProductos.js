@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     card.innerHTML = `
       <div class="products">
         <div class="article">
-          <img src="${producto.imagen}" class="container" alt="${producto.nombre}">
+          <img src="../assets/images/${producto.imagen}" class="container" alt="${producto.nombre}">
           <p class="texto-negro1">${producto.nombre}</p>
           <p class="texto-negro2">${producto.descripcion}</p>
           <p class="description">$${producto.precio.toLocaleString()}</p>
           <div class="botonera">
             <button class="agregar" data-index="${index}" data-nombre="${producto.nombre}" data-precio="${producto.precio}">Comprar</button>
-            <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='carrito.html'"></i></button>
+            <button class="ver"><i class="fa-solid fa-cart-shopping" onclick="window.location.href='../../public/carrito.html'"></i></button>
           </div>
         </div>
       </div>
