@@ -9,26 +9,26 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// ✅ Servir archivos estáticos desde la carpeta "public"
-app.use(express.static(path.join(__dirname, "public")));
+// Servir archivos estáticos desde la carpeta 'asset'
+app.use(express.static(path.join(__dirname, "asset")));
 
-// ✅ Ruta API ejemplo
+// Ruta para obtener usuarios desde la base de datos
 app.get("/usuarios", (req, res) => {
-    connection.query("SELECT * FROM usuario", (err, results) => {
-        if (err) {
-            console.error("Error al obtener los usuarios:", err);
-            return res.status(500).json({ error: "Error al obtener los usuarios" });
-        }
-        res.json(results);
-    });
+  connection.query("SELECT * FROM usuario", (err, results) => {
+    if (err) {
+      console.error("Error al obtener los usuarios:", err);
+      return res.status(500).json({ error: "Error al obtener los usuarios" });
+    }
+    res.json(results);
+  });
 });
 
-// ✅ Captura todas las demás rutas (no API) y sirve index.html
+// Para cualquier otra ruta, devolver el archivo index.html
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// ✅ Iniciar servidor
+// Iniciar el servidor
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://localhost:${port}`);
+  console.log(`Servidor escuchando en http://localhost:${port}`);
 });
