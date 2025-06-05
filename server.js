@@ -6,11 +6,12 @@ const connection = require("./database");
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Habilitar CORS y parseo de JSON
 app.use(cors());
 app.use(express.json());
 
-// Servir archivos estáticos desde la carpeta 'asset'
-app.use(express.static(path.join(__dirname, "asset")));
+// Servir archivos estáticos desde la carpeta 'public'
+app.use(express.static(path.join(__dirname, "public")));
 
 // Ruta para obtener usuarios desde la base de datos
 app.get("/usuarios", (req, res) => {
@@ -24,7 +25,7 @@ app.get("/usuarios", (req, res) => {
 });
 
 // Para cualquier otra ruta, devolver el archivo index.html
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
